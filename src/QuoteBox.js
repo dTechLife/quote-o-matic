@@ -5,10 +5,9 @@ export function QuoteBox({ quotes, currentQuote, newQuote }) {
 
   return (
     <div
-      id="quote-box"
+      id=" quote-box"
       className={`${style.quoteBox} shadow-sm p-3 mb-5 bg-white rounded`}
     >
-      {console.log(style)}
       {quotes && (
         <div>
           <em>
