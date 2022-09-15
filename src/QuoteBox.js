@@ -14,11 +14,13 @@ export function QuoteBox({ quotes, currentQuote, newQuote }) {
           <em>
             <p className={style.text}>"{quotes[currentQuote].quote}"</p>
           </em>
-          <p id="author">-{quotes[currentQuote].author}</p>
+          <p className={`${style.text}`} id="author">
+            -{quotes[currentQuote].author}
+          </p>
           <button
             type="button"
             id="new-quote"
-            className="btn btn-primary"
+            className={`btn btn-primary`}
             onClick={newQuote}
           >
             New Quote
