@@ -1,6 +1,6 @@
 {
   "name": "quote-o-matic",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "",
   "main": "./lib/QuoteOMatic.js",
   "repository": {
@@ -9,7 +9,8 @@
   },
   "keywords": [
     "react",
-    "scroll"
+    "quote",
+    "quotes"
   ],
   "license": "MIT",
   "scripts": {
