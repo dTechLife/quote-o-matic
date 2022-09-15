@@ -1,0 +1,25 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+.quoteBox {
+  display: grid;
+  margin: auto;
+  width: 80vw;
+  text-align: center;
+  padding: 1vh;
+}
+.tweetQuote {
+  margin-top: 1vh;
+}
+.text {
+  height: 7rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+@media screen and (min-width: 601px) {
+  .quote-box {
+    font-size: 1rem;
+    font-size: 0.8rem;
+  }
+}
