@@ -1,12 +1,15 @@
 {
   "name": "quote-o-matic",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "",
   "main": "./lib/QuoteOMatic.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/destintech/quote-o-matic"
   },
+  "files": [
+    "./lib/QuoteOMatic.js"
+  ],
   "keywords": [
     "react",
     "quote",
